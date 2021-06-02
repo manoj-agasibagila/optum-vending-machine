@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Optum.VendingMachine.ConsoleApp</AssemblyName>
+    <RootNamespace>Optum.VendingMachine.ConsoleApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Optum.VendingMachine.Domain\Optum.VendingMachine.Domain.csproj" />
+    <ProjectReference Include="..\Optum.VendingMachine.Persistance\Optum.VendingMachine.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>
